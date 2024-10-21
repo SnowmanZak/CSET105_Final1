@@ -3,7 +3,9 @@ body {
     background-color: #f0f0f0;
     padding: 20px;
 }
-
+h1 {
+    text-align: center;
+}
 .container {
     max-width: 600px;
     margin: auto;
@@ -50,3 +52,4 @@ button:hover {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+
