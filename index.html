@@ -8,19 +8,20 @@
 </head>
 <body>
     <div class="container">
-                    <h1>Grocery List Manager</h1>
-            
-            <input type="text" id="new-item" placeholder="Add a new item">
+        <h1>Grocery List Manager</h1>
 
-            <button onclick="">Add Item</button>
+        <input type="text" id="new-item" placeholder="Add a new item">
+
+        <button onclick="addItem()">Add Item</button>
 
         <ul class="item-list" id="grocery-list">
+            <!-- List items will be added here dynamically -->
         </ul>
 
         <div class="controls">
-            <button onclick="showAll()">Show All Items</button>
-            <button onclick="showUnpurchased()">Show Unpurchased Items</button>
-            <button onclick="showPurchased()">Show Purchased Items</button>
+            <button onclick="">Show All Items</button>
+            <button onclick="">Show Unpurchased Items</button>
+            <button onclick="">Show Purchased Items</button>
         </div>
     </div>
 
@@ -28,4 +29,3 @@
 </body>
 
 </html>
-
