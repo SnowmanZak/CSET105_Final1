@@ -13,10 +13,10 @@ function addItem()
         // Set the text of the list item to the new item
         li.textContent = newItem;
 
-         // Add an event listener to toggle purchased state
-         li.addEventListener("click", function() {
-            // Toggle the 'purchased' class on click
-            li.classList.toggle("purchased");
+        // Add an event listener to toggle purchased state
+        li.addEventListener("click", function() {
+        // Toggle the 'purchased' class on click
+        li.classList.toggle("purchased");
         });
 
         // Append the new list item to the grocery list
